@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Merienda:wght@300..900&family=Playwrite+RO:wght@100..400&family=Tiny5&display=swap');
+html, body{
+    margin: 0;
+}
+
+h3{
+    text-align: center;
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  color: purple;
+  /* font-weight: <weight>;
+  font-style: normal; */
+}
+#product-catalog{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.single-product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 2rem;
+    width : 20%;
+   
+}
+.single-product img{
+    width: 80%;
+}
